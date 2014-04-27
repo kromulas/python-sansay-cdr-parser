@@ -14,6 +14,7 @@ import datetime, csv
 from os.path import isfile
 from uuid import uuid4
 
+__version__ = "$Rev: 0.0.2 $"
 # exception classes
 class Error(Exception):
     """Exception class for this module. Use:

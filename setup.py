@@ -1,9 +1,5 @@
 from __future__ import with_statement
-from setuptools import setup, find_packages
-
-__version__ = None
-with open('sansaycdr/version.py') as f:
-    exec(f.read())
+from setuptools import setup
 
 # To install python-sansay-cdr-parser Module, open a Terminal shell, then run this
 # file by typing:
@@ -14,15 +10,14 @@ with open('sansaycdr/version.py') as f:
 # documentation: http://pypi.python.org/pypi/setuptools
 
 setup (
-    name = "sansaycdr",
-    version = __version__,
+    name = "sansaycdrparser",
+    version = "0.0.2",
     description = "Quick Sansay SBC CDR file parser that returns a list of records",
     author = "Ken Ryon",
     author_email = "ken.ryon@shift8networks.net",
     url = "https://github.com/kromulas/python-sansay-cdr-parser",
     keywords = ["sansay","cdr","parser"],
-    packages = find_packages(),
-    include_package_data=True,
+    py_modules = ["sansaycdrparser"],
     classifiers = [
         "Development Status :: 5 - Production/Stable",
         "Intended Audience :: Developers",
