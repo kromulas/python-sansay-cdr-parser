@@ -16,10 +16,10 @@ with open('sansaycdr/version.py') as f:
 setup (
     name = "sansaycdr",
     version = __version__,
-    description = "Quick Sansay SBC CDR file parser that returns a list of records"
-    author = "Ken Ryon"
-    author_email = "ken.ryon@shift8networks.net"
-    url = "https://github.com/kromulas/python-sansay-cdr-parser"
+    description = "Quick Sansay SBC CDR file parser that returns a list of records",
+    author = "Ken Ryon",
+    author_email = "ken.ryon@shift8networks.net",
+    url = "https://github.com/kromulas/python-sansay-cdr-parser",
     keywords = ["sansay","cdr","parser"],
     packages = find_packages(),
     include_package_data=True,
