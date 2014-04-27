@@ -1,9 +1,9 @@
-"""SansayCdrParser.py: Quick Sansay SBC CDR file parser that returns a list of records.
+"""sansaycdrparser.py: Quick Sansay SBC CDR file parser that returns a list of records.
 
 Usage.
 
 Parsing a CDR file:
-	records_list = SansayCdrParse.ParseFile(file, ver)
+	records_list = sansaycdrparser.ParseFile(file, ver)
 where file is the name of a Sansay SBC CDR file and ver is the version of the Sansay SBC CDR file format.
 Current support for version 1.18 is provided and is the default passed at this time. Earlier versions and
 newly released versions will be updated as needed.
